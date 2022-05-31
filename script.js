@@ -28,7 +28,7 @@ console.log("⠻⠿⢿⣿⣿⣿⣿⠏⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀�
 
 const homerQuotes = [ "He's not so fat", "I hope it was Flanders!", "I'm on my way!"];
 
-let quoteNumber = Math.floor(Math.random() * 3);
+let quoteNumber = Math.floor(Math.random() * homerQuotes.length);
 
 
 console.log(homerQuotes[quoteNumber]);
